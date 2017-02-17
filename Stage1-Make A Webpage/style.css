@@ -1,0 +1,59 @@
+/* css stylesheet for stage 1 project */
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.topic {
+  border-left: 6px solid teal;
+  border-right: 6px solid teal;
+  border-style: double solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+.concept {
+  background-color: teal;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.concept-title {
+  text-align: center;
+  background-color: teal;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-weight: lighter;
+  margin: 5px;
+}
+
+.container-parent {
+  display: inline-flex;
+  height: 220px;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container-child {
+  height: 200px;
+  width: 200px;
+  justify-content: space-between;
+  border-radius: 15px;
+  display: inline-flex;
+}
